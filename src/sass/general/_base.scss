@@ -1,0 +1,20 @@
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-body {
+    border-bottom: 1px solid gray;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+

@@ -1,0 +1,32 @@
+.tipo-servicio-container {
+    display: flex;
+  }
+  
+  .tipo-servicio-option {
+    flex: 1;
+    background-color: $primary-color;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .tipo-servicio-option:last-child {
+    margin-right: 0;
+  }
+  
+  .tipo-servicio-option {
+
+    input {
+      display: none;
+    }
+   
+  }
+
+  .tipo-servicio-option:hover {
+    background-color: #a5a4a4;
+  }
+  
+  .tipo-servicio-option.selected {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
